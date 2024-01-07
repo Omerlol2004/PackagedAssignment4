@@ -29,10 +29,4 @@ write_to_csv(data_rsi_dict, 'orcl-rsi.csv')
 
 
 
-## Installation
-
-Install the package using pip:
-
-```bash
-pip install stock-analysis-tool
 
