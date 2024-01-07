@@ -1,6 +1,3 @@
-# PackagedAssignment4
-import csv
-from collections import deque
 from stock_analysis_tool import read_csv, calculate_sma, calculate_rsi, write_to_csv
 
 # Load data from a CSV file
