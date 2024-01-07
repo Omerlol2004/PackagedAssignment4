@@ -2,13 +2,6 @@
 
 This tool provides simple stock analysis functionalities, including reading data from a CSV file, calculating Simple Moving Averages (SMA), and calculating Relative Strength Index (RSI).
 
-## Installation
-
-Install the package using pip:
-
-```bash
-pip install stock-analysis-tool
-
 ## Usage
 
 Here's a quick guide on how to use the tool in your Python script (`Assignment.py`):
@@ -33,3 +26,13 @@ write_to_csv(data_sma_dict, 'orcl-sma.csv')
 # Write RSI to orcl-rsi.csv
 data_rsi_dict = [{'RSI_14': rsi} for rsi in data_rsi]
 write_to_csv(data_rsi_dict, 'orcl-rsi.csv')
+
+
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install stock-analysis-tool
+
