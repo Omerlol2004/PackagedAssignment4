@@ -1,19 +1,10 @@
-from stock_analysis_tool import read_csv, calculate_sma, calculate_rsi, write_to_csv
+# Stock Analysis Tool
 
-# Load data from a CSV file
-file_path = 'your_stock_data.csv'
-data = read_csv(file_path)
+This tool provides simple stock analysis functionalities, including reading data from a CSV file, calculating Simple Moving Averages (SMA), and calculating Relative Strength Index (RSI).
 
-# Calculate Simple Moving Averages (SMA) for a 5-day window
-data_sma = calculate_sma(data, window=5)
+## Installation
 
-# Calculate Relative Strength Index (RSI) for a 14-day window
-data_rsi = calculate_rsi(data, window=14)
+Install the package using pip:
 
-# Write SMA to sma-results.csv
-data_sma_dict = [{'SMA_5': sma} for sma in data_sma]
-write_to_csv(data_sma_dict, 'sma-results.csv')
-
-# Write RSI to rsi-results.csv
-data_rsi_dict = [{'RSI_14': rsi} for rsi in data_rsi]
-write_to_csv(data_rsi_dict, 'rsi-results.csv')
+```bash
+pip install stock-analysis-tool
